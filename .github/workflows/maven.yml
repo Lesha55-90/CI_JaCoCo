@@ -1,8 +1,8 @@
-name: Java CI                       # Как называется Workflow
+name: Java CI # Как называется Workflow
 
-on: [push]                          # Когда срабатывает (на push)
+on: [push]  # Когда срабатывает (на push)
 
-jobs:                               # Какие задачи делаем
+jobs: # Какие задачи делаем
     build:                          # Сборка
     runs-on: ubuntu-latest          # На какой ОС запускаем
 
